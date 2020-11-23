@@ -1,3 +1,7 @@
+<h1>Backend : https://my-json-server.typicode.com/Koray1903/json-server-api</h1>
+
+<h1>Frontend : https://car-shopping-app.netlify.app/</h1>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -41,7 +41,7 @@
   width: 250px;
   text-align: center;
 }
-.Product__Brand__Input :focus {
+.Product__Brand__Input:focus {
   outline: none;
 }
 
@@ -57,7 +57,7 @@
   width: 250px;
   text-align: center;
 }
-.Product__Price__Input :focus {
+.Product__Price__Input:focus {
   outline: none;
 }
 
@@ -72,7 +72,7 @@
   padding: 10px;
   width: 500px;
 }
-.Product__Description__Input :focus {
+.Product__Description__Input:focus {
   outline: none;
 }
 
@@ -86,7 +86,7 @@
   font-weight: 600;
   padding: 5px 20px;
 }
-.Product__Save__Button :focus {
+.Product__Save__Button:focus {
   outline: none;
 }
 .Product__Save__Button:hover {

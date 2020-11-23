@@ -1,0 +1,126 @@
+.MainView__Spinner {
+  bottom: 0;
+  color: #223251;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.MainView__Background {
+  align-items: center;
+  background: #e9ecf3;
+  border-radius: 0 0 16px 16px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+  padding: 32px 64px 0 64px;
+  width: 1200px;
+}
+
+.MainView__Text {
+  align-self: flex-start;
+  color: #8b97a8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+}
+
+.MainView__InnerFlex {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Product__Flex {
+  align-items: center;
+  background: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-around;
+  margin-bottom: 64px;
+  padding: 16px;
+  width: 300px;
+}
+
+.Product__InnerFlex {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 45px;
+}
+
+.Product__EditIcon {
+  color: #223251;
+  cursor: pointer;
+  font-size: 18px;
+}
+.Product__EditIcon:hover {
+  color: #648fff;
+}
+
+.Product__DeleteIcon {
+  color: #223251;
+  cursor: pointer;
+  font-size: 24px;
+}
+.Product__DeleteIcon:hover {
+  color: #648fff;
+}
+
+.Product__Image {
+  border-radius: 8px;
+  height: 150px;
+  width: auto;
+}
+
+.Product__Brand {
+  align-self: flex-start;
+  color: #223251;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Product__Price {
+  align-self: flex-end;
+  color: #648fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Product__Description {
+  color: #707070;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  height: 75px;
+  margin: 0;
+  word-break: break-word;
+}
+
+.Product__AddToCartIcon {
+  align-self: flex-end;
+  color: #223251;
+  cursor: pointer;
+  font-size: 32px;
+}
+.Product__AddToCartIcon:hover {
+  color: #648fff;
+}
+
+/*# sourceMappingURL=MainView.css.map */

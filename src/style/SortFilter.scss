@@ -1,0 +1,23 @@
+.SortFilter__Flex {
+	align-items: center;
+	align-self: flex-end;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-bottom: 32px;
+	width: 450px;
+
+
+	select, span {
+		color: #223251;
+		font-family: "Montserrat", sans-serif;
+		font-size: 14px;
+
+		option {
+			color: #223251;
+			font-family: "Montserrat", sans-serif;
+			font-size: 14px;
+		}
+	}
+}

@@ -1,0 +1,48 @@
+.Pagination__Flex {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-bottom: 64px;
+	width: 300px;
+}
+
+.Pagination__First__Icon {
+	color: #223251;
+	cursor: pointer;
+	font-size: 24px;
+}
+
+.Pagination__Previous__Icon {
+	color: #223251;
+	cursor: pointer;
+	font-size: 35px;
+}
+
+.Pagination__Page__Number {
+	background: #e9ecf3;
+	border: none;
+	color: #223251;
+	cursor: pointer;
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+
+	:active :focus :hover :visited {
+		border: none;
+		outline: 0 !important;
+	}
+}
+
+.Pagination__Next__Icon {
+	color: #223251;
+	cursor: pointer;
+	font-size: 35px;
+}
+
+.Pagination__Last__Icon {
+	color: #223251;
+	cursor: pointer;
+	font-size: 24px;
+}

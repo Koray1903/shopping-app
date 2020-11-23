@@ -1,0 +1,74 @@
+.Navigation__Background {
+  align-items: center;
+  background: white;
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100px;
+  justify-content: space-around;
+  margin-top: 64px;
+  padding: 0 64px;
+}
+
+.Navigation__Brand {
+  margin: 0 auto 0 0;
+}
+.Navigation__Brand:focus, .Navigation__Brand:hover, .Navigation__Brand:visited, .Navigation__Brand:link, .Navigation__Brand:active {
+  text-decoration: none;
+}
+.Navigation__Brand :hover {
+  color: #648fff;
+}
+.Navigation__Brand p {
+  color: #223251;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.Navigation__InnerFlex {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.Navigation__CreateIcon {
+  color: #223251;
+  cursor: pointer;
+  font-size: 36px;
+}
+.Navigation__CreateIcon:hover {
+  color: #648fff;
+}
+
+.Navigation__CartIcon {
+  color: #223251;
+  cursor: pointer;
+  font-size: 32px;
+}
+.Navigation__CartIcon:hover {
+  color: #648fff;
+}
+
+.Navigation__Cart__Qty {
+  align-items: center;
+  background: #e9ecf3;
+  border-radius: 20px;
+  bottom: 0;
+  color: #223251;
+  display: inline-flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 20px;
+  justify-content: center;
+  position: relative;
+  right: 10px;
+  width: 20px;
+}
+
+/*# sourceMappingURL=Navigation.css.map */

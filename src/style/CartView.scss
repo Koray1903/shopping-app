@@ -1,0 +1,99 @@
+// SPINNER
+.CartView__Spinner {
+	bottom: 0;
+	color: #223251;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+// SPINNER
+
+.CartView__Background {
+	align-items: center;
+	background: #e9ecf3;
+	border-radius: 0 0 16px 16px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 64px;
+	padding: 32px 64px 0 64px;
+	width: 1200px;
+}
+
+.Cart__Product {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: 32px 0;
+	width: 90%;
+}
+
+.Cart__Product__Image {
+	border-radius: 8px;
+	height: 150px;
+	width: auto;
+}
+
+.Cart__Product__Brand {
+	color: #223251;
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+	width: 100px;
+}
+
+
+.Cart__Product__Price {
+	color: #648fff;
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+	width: 100px;
+}
+
+.Cart__Product__DecreaseIcon {
+	color: #223251;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.Cart__Product__Quantity {
+	color: #223251;
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+	text-align: center;
+	width: 50px;
+}
+
+.Cart__Product__IncreaseIcon {
+	color: #223251;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.Cart__Product__DeleteIcon {
+	color: #223251;
+	cursor: pointer;
+	font-size: 28px;
+}
+
+.Cart__Total {
+	color: #223251;
+	font-family: "Montserrat", sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	margin: 32px 0 64px 0;
+
+	.Cart__Total__Price{
+		color: #648fff;
+	}
+}
+

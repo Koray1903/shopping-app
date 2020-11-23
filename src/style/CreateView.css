@@ -1,0 +1,102 @@
+.CreateView__Spinner {
+  bottom: 0;
+  color: #223251;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.CreateView__Background {
+  align-items: center;
+  background: #e9ecf3;
+  border-radius: 0 0 16px 16px;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  padding: 32px 64px;
+  width: 1200px;
+}
+
+.New__Product__Image {
+  border-radius: 8px;
+  height: 150px;
+  width: auto;
+}
+
+.New__Product__Label {
+  color: #223251;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.New__Product__Brand__Input {
+  border: none;
+  border-radius: 16px;
+  color: #223251;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+}
+.New__Product__Brand__Input :focus {
+  outline: none;
+}
+
+.New__Product__Price__Input {
+  border: none;
+  border-radius: 16px;
+  color: #223251;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+}
+.New__Product__Price__Input :focus {
+  outline: none;
+}
+
+.New__Product__Description__Input {
+  border: none;
+  border-radius: 16px;
+  color: #223251;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px;
+  width: 500px;
+}
+.New__Product__Description__Input :focus {
+  outline: none;
+}
+
+.New__Product__Save__Button {
+  border: none;
+  color: #e9ecf3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 16px;
+  background: #223251;
+  padding: 5px 20px;
+}
+.New__Product__Save__Button :focus {
+  outline: none;
+}
+.New__Product__Save__Button:hover {
+  background: #648fff;
+}
+
+/*# sourceMappingURL=CreateView.css.map */
